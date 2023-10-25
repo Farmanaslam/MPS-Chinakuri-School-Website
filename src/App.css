@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,163 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  font-family:'Roboto';
+}
+
+.header{
+  background-color: #1e3953;
+  padding: 15px;
+}
+.header .row  button{
+  font-size: 10px;
+}
+.header  .row>.icons{
+  color: white;
+}
+.header  .fa{
+  color: #93c83f;
+ 
+}
+.header  .icons .fa span{
+  margin-left: 2px;
+  color:white;
+}
+.header .icons a{
+  text-decoration: none;
+  color: white;
+}
+.icon{
+  color:#93c83f ;
+}
+#logo{
+  width: 50px;
+  margin-right: 5px;
+}
+
+.footer{
+  margin-top: 30px;
+}
+.footer .col1 , .footer .col2 ,.footer .col3{
+  color: white;
+}
+
+.footer .col2>a{
+  color: white;
+  
+}
+.footer .col2 a{
+  color: white;
+  text-decoration: none;
+}
+.footer .col3>h3{
+  color: #93c83f;
+}
+.footer button, .contact-form button{
+  background-color: #93c83f;
+  border: none;
+}
+.footer button:hover, .contact-form button:hover{
+  background-color:#566938;
+}
+.footer .icon{
+  margin-right: 5px;
+}
+.copyright{
+ color: white;
+  padding: 10px;
+ text-align: center;
+ background-color: rgb(24, 24, 24);
+}
+.h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.h3-foot{
+  font-size: 25px;
+  font-weight: 400;
+  
+}
+.h4{
+  font-size: 25px;
+}
+.about-school p{
+  font-size: 17px;
+  gap: 8px;
+}
+.about-school img{
+  width: 80vh;
+}
+.members-area{
+ text-align: center;
+
+}
+.members-area .underline{
+  border-bottom: 2px solid #93c83f;
+}
+.list-group .list-group-item{
+  cursor: pointer;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ececec;
+  overflow: hidden;
+}
+
+.rules li{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.contact-form{
+  background-color: #1e3953;
+  padding-bottom: 20px;
+color: #93c83f;
+}
+
+.form-group .input-area{
+  height: 50px;
+  background-color: #1e3953;
+  letter-spacing: 2px;
+  color: #b4b4b4;
+ 
+}
+
+.form-group  .message{
+  height: 150px;
+}
+.form-group ::placeholder{
+  color: #b4b4b4;
+}
+.mapframe{
+  border: 2px solid #93c83f;
+ 
+}
+.contact-icons .icon{
+  font-size: 25px;
+}
+.contact-icons a{
+  text-decoration: none;
+  color:inherit;
+}
+.msg-text-area{
+  width: 100%;
+  height: 150px;
+  background-color:#1e3953;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+}
+.sent-msg{
+  color: #93c83f;
+}
+@media screen and(max-width:550px){
+  .download{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+ 
 }
